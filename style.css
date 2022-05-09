@@ -1,0 +1,38 @@
+body{
+    background-color: lightseagreen;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Macondo', cursive;
+}
+button{
+ color: antiquewhite;
+}
+p{
+    font-size: 18px;
+    color: blanchedalmond;
+}
+canvas{
+    margin-top: 260px;
+    border: 5px solid navajowhite;
+    border-radius: 20px;
+    animation-name: ok;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes ok{
+    from{box-shadow: 1px 1px 38px fuchsia;}
+    to{box-shadow: 1px 1px 38px aliceblue;}
+}
+label{
+    font-size: 25px;
+    color: gainsboro;
+}
+.ibox{
+    border: 5px solid salmon;
+    border-radius: 100px;
+
+}
+#text{
+    font-size: 22px;
+    color: cornsilk;
+}
